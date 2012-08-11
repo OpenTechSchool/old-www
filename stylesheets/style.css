@@ -143,8 +143,9 @@ h2 span {
 
 .workshop_title {
   width: 50%;
-  text-align: center;
   margin: 2em auto .5em auto;
+  font-size: 2em;
+  text-align: center;
   color: #085987;
 }
 
@@ -174,8 +175,8 @@ h2 span {
 
 footer,
 .meta_nav {
-  height: 21px;
-  padding: 4px 0;
+  height: 24px;
+  padding: 6px 0 4px 0;
   font-size: 12px;
   background: #085987;
   color: #FFF;
@@ -184,6 +185,38 @@ footer,
 .meta_nav iframe {
   float: right;
   margin-left: 6px;
+}
+
+.meta_nav_logo {
+  float: left;
+}
+
+.meta_nav_logo a,
+.meta_nav_logo a:link,
+.meta_nav_logo a:visited {
+  display: block;
+  width: 192px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: transparent url("../images/ots_logo_meta.png") no-repeat 0 0;
+  color: #FFF;
+  opacity:0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";  /* IE8 */
+  filter: alpha(opacity=80); /* IE 5-7  */
+}
+
+.meta_nav_logo a:hover,
+.meta_nav_logo a:active,
+.meta_nav_logo a:focus {
+  color: #FFF;
+  opacity:1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";  /* IE8 */
+  filter: alpha(opacity=100); /* IE 5-7  */
+}
+
+.meta_nav_social {
+  float: right;
 }
 
 footer {
