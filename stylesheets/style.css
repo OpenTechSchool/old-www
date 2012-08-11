@@ -115,7 +115,7 @@ h2 span {
   background: #FFF;
   padding: .5em 1em;
   position: relative;
-  bottom: -.5em;
+  bottom: -.75em;
 }
 
 .ots_logo {
@@ -176,7 +176,7 @@ h2 span {
 footer,
 .meta_nav {
   height: 24px;
-  padding: 6px 0 4px 0;
+  padding: 8px 0 4px 0;
   font-size: 12px;
   background: #085987;
   color: #FFF;
