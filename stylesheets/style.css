@@ -183,29 +183,39 @@ h2 span {
   color: #085987;
 }
 
-.team_list {
+/* Style for list with floated list items. Responds to screen-width. */
+
+.float_list {
   text-align: center;
   list-style: none;
   padding: 0;
   overflow: hidden;
 }
 
-.team_list h3 {
+.float_list h3 {
   margin-bottom: .5em;
 }
 
-.team_list li.member {
+.float_list > li {
   width: 21%;
   float: left;
   margin: 0 auto 1.5em auto;
   padding: 0 2%;
 }
 
-.team_list ul {
+/* List of OTS members, extends float list. Includes image and links. */
+
+.team_list .member_links {
   list-style: none;
   padding: 0;
 }
 
+
+/* List of OTS events, extends float list. */
+
+.event_list {
+  
+}
 
 footer,
 .meta_nav {
@@ -373,7 +383,7 @@ footer a:focus {
   section {
     padding: 1em 1em 1.5em 1em;
   }
-  .team_list li.member {
+  .float_list li.member {
     padding: 0 2%;
     width: 46%;
   }
@@ -405,7 +415,7 @@ footer a:focus {
 
 @media handheld, only screen and (max-width: 440px) {
 
-  .team_list li.member {
+  .float_list li.member {
     float: none;
   }
 
