@@ -67,8 +67,6 @@ td { vertical-align: top; }
 /* ! Shared styles, OTS branding */
 /* ========================================== */
 
-
-
 a,
 a:link,
 a:visited {
@@ -83,6 +81,7 @@ a:focus {
   text-decoration: underline;
 }
 
+/* buttons */
 .ots_action {
   background: #1F8AB6;
   display: inline-block;
@@ -127,10 +126,8 @@ p {
 }
 
 
-
 .bg_full {
   margin: 0;
-/*  background: #f6f8eb;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -176,12 +173,22 @@ h2 span {
 }
 
 .workshop_title {
-  width: 50%;
+  width: 80%;
   margin: 2em auto .5em auto;
   font-size: 2em;
+  line-height: 1;
   text-align: center;
   color: #085987;
 }
+
+
+.schedule_details {
+  margin-bottom: .5em;
+  font-size: .8em;
+  color: #999;
+  font-style: italic;
+}
+
 
 /* Style for list with floated list items. Responds to screen-width. */
 
@@ -413,12 +420,18 @@ footer a:focus {
 /* ! Layout for smaller mobile version   */
 /* ============================= */
 
+
 @media handheld, only screen and (max-width: 440px) {
 
+  .meta_nav_social,
+  .meta_nav_logo;
   .float_list li.member {
     float: none;
   }
-
+  
+  .meta_nav {
+    height: 4.5em;
+  }
 }
 
 
