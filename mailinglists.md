@@ -59,6 +59,7 @@ These mailing-lists are for @ots members only who will filter, curate and/or act
 * always have a comprehensible subject prefix:
 
    * \[OTS-Secondword\] in all cases:
+   
       * OTS in all caps,
       * dash
       * Secondword is upper case and is the second word in the mailing-list name (or only word in the case of the public facing mailing-list) -> e.g. Berlin for team.berlin, Tech for team.tech, Python for coaches.python, Math-3d for coaches.math-3d, Offers for offers
@@ -68,21 +69,25 @@ These mailing-lists are for @ots members only who will filter, curate and/or act
 * membership/post/viewable:
 
    * team.* :
+
       * membership = only *@ots for easier management (docs get shared automatically etc.)
       * post = team decision if external mails can get in or limited to members (before this decision is made, default should be set to members and *@ots only)
       * viewable = team decision if content should be publicly viewable (before this decision is made, default should be set to members and *@ots only)
 
    * discuss.* :
+
       * membership = anyone  (note: that means the "Allow new users not in       *   opentechschool.org" setting needs to be activated and "Join the Group" should be set to "Anyone" -> both can be found in Settings/New members)
       * post = members of the group
       * viewable = public
 
    * coaches.* :
+
       * membership = anyone  (note: that means the "Allow new users not in opentechschool.org" setting needs to be activated and "Join the Group" should be set to "Anyone" -> both can be found in Settings/New members)
       * post = members of the group
       * viewable = public
 
    * public facing mailing-lists (e.g. offers, press etc.)
+
         * membership = only *@ots
         * post = anyone
         * viewable = only *@ots
