@@ -88,13 +88,13 @@ These mailing-lists are for @ots members only who will filter, curate and/or act
 
    * public facing mailing-lists (e.g. offers, press etc.)
 
-        * membership = only \*@ots
-        * post = anyone
-        * viewable = only \*@ots
+      * membership = only \*@ots
+      * post = anyone
+      * viewable = only \*@ots
 
 * all mailing-lists where some members do not have @ots addresses (i.e. non-team mailing-list) should contain an email footer with:
-    * Display how to post to this group by email
-    * Display how to unsubscribe from this group by email
+   * Display how to post to this group by email
+   * Display how to unsubscribe from this group by email
 
 * Group's primary language is decided by each team or group of coaches.   
 For public facing mailing-lists and  discuss mailing-lists and by default before the teams make any decision the language is set to English (United States)
