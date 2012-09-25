@@ -48,13 +48,13 @@ Mailinglists should:
 
 * follow a name pattern to easily grasp their use, suggestion:
 
-    * team.berlin@ots -> all people active in this city (e.g. team.stockholm etc)
-    * team.tech, team.communications, team.blueprint -> teams with a specific focus
-    * discuss.berlin[a], discuss.global -> replacement for the opentechschool@googlegroups.com
-    * coaches.python, coaches.js, coaches.math-3d -> for coaches mailing-lists
-    * public facing mailing-lists such as offers@ots (or later on press@ots) -> for external people to post offers/requests to the members of OTS.   
+   * team.berlin@ots -> all people active in this city (e.g. team.stockholm etc)
+   * team.tech, team.communications, team.blueprint -> teams with a specific focus
+   * discuss.berlin[a], discuss.global -> replacement for the opentechschool@googlegroups.com
+   * coaches.python, coaches.js, coaches.math-3d -> for coaches mailing-lists
+   * public facing mailing-lists such as offers@ots (or later on press@ots) -> for external people to post offers/requests to the members of OTS.   
 These mailing-lists are for @ots members only who will filter, curate and/or act on the emails (by posting/pushing the interesting offers on a designated webpage for instance, or getting in touch with the journalists, etc.)
-    * When the non-prefix part of the mailing-list is two words or more (e.g. math-3d, online-courses, etc.) use "-" to separate the words
+   * When the non-prefix part of the mailing-list is two words or more (e.g. math-3d, online-courses, etc.) use "-" to separate the words
 
 * always have a comprehensible subject prefix:
 
