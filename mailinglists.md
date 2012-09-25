@@ -34,6 +34,8 @@ Please note that some groups are not visible to you if you don't have an <span s
   </tr>
 </table>   
 
+We'll try to keep this up to date.
+
 
 ## Guidelines
 
@@ -56,7 +58,7 @@ These mailing-lists are for @ots members only who will filter, curate and/or act
 
 * always have a comprehensible subject prefix:
 
-    * [OTS-Secondword] in all cases:
+    * ![OTS-Secondword] in all cases:
         * OTS in all caps,
         * dash
         * Secondword is upper case and is the second word in the mailing-list name (or only word in the case of the public facing mailing-list) -> e.g. Berlin for team.berlin, Tech for team.tech, Python for coaches.python, Math-3d for coaches.math-3d, Offers for offers
