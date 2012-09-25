@@ -52,7 +52,7 @@ Mailinglists should:
     * team.tech, team.communications, team.blueprint -> teams with a specific focus
     * discuss.berlin[a], discuss.global -> replacement for the opentechschool@googlegroups.com
     * coaches.python, coaches.js, coaches.math-3d -> for coaches mailing-lists
-    * public facing mailing-lists such as offers@ots (or later on press@ots) -> for external people to post offers/requests to the members of OTS. <br/> 
+    * public facing mailing-lists such as offers@ots (or later on press@ots) -> for external people to post offers/requests to the members of OTS.   
 These mailing-lists are for @ots members only who will filter, curate and/or act on the emails (by posting/pushing the interesting offers on a designated webpage for instance, or getting in touch with the journalists, etc.)
     * When the non-prefix part of the mailing-list is two words or more (e.g. math-3d, online-courses, etc.) use "-" to separate the words
 
@@ -71,16 +71,14 @@ These mailing-lists are for @ots members only who will filter, curate and/or act
       * membership = only *@ots for easier management (docs get shared automatically etc.)
       * post = team decision if external mails can get in or limited to members (before this decision is made, default should be set to members and *@ots only)
       * viewable = team decision if content should be publicly viewable (before this decision is made, default should be set to members and *@ots only)
+
    * discuss.* :
-      * membership = anyone   
-(note: that means the "Allow new users not in       *   opentechschool.org" setting needs to be activated and "Join the Group" should be set to "Anyone" -> both can be found in Settings/New members)
+      * membership = anyone  (note: that means the "Allow new users not in       *   opentechschool.org" setting needs to be activated and "Join the Group" should be set to "Anyone" -> both can be found in Settings/New members)
       * post = members of the group
       * viewable = public
 
-   * coaches.*:
-
-      * membership = anyone   
-(note: that means the "Allow new users not in opentechschool.org" setting needs to be activated and "Join the Group" should be set to "Anyone" -> both can be found in Settings/New members)
+   * coaches.* :
+      * membership = anyone  (note: that means the "Allow new users not in opentechschool.org" setting needs to be activated and "Join the Group" should be set to "Anyone" -> both can be found in Settings/New members)
       * post = members of the group
       * viewable = public
 
