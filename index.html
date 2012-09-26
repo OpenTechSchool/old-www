@@ -1,6 +1,8 @@
 ---
 layout: main
 title: Home
+calendar: opentechschool.org_9hrohnqlmbqh81eculubkd82fs@group.calendar.google.com
+onlyFutureDates: 1
 ---
 
 <section class="bg_full">
@@ -51,29 +53,9 @@ title: Home
 
       <h3>Upcoming</h3>
 
-      <ul>
-        <li>
-          <a href="http://www.meetup.com/opentechschool/events/77514812/">Introduction to programming with python</a>
-        </li>
-        <li>
-          <a href="http://www.meetup.com/opentechschool/events/79552712/">Beginners Meetup</a>
-        </li>
-      </ul>
+        <div id="calendar">
+        </div>
 
-      <h3>Past</h3>
-
-      <ul>
-        <li>
-          <a href="http://campusparty.opentechschool.org">OTS at Campus Party Europe</a>
-        </li>
-        <li>
-          <a href="http://js.opentechschool.org">Javascript for Absolute Beginners</a>
-        </li>
-      </ul>
-      
-      <!-- Move this div where you want to insert the calendar -->
-      <!-- <div id="icjs"></div> -->
-      
     </div>
   </div>
 
@@ -231,16 +213,3 @@ title: Home
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
-<script>
-(function() {
-
- // Customize these as you wish
- var pastdays  = 0;    // # of past days to show (0 to 30)
- var futuredays = 60;   // # of future days to show (0 to 365)
- var cachemins = 10;   // # of minutes to wait before refreshing calendar data (2 to 1440)
- var container = "icjs"; // ID of div to embed calendar into
-
- // Do not change anything below this
- var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "https://zetabee.com/icaljs/embed?calid=OGp3RkZmWFlvQ0M0QWh5RzBnbzlFZz09&offset=-2&cachemins=" + cachemins + "&futuredays=" + futuredays + "&pastdays=" + pastdays + "&container=" + container;
- (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(s);
-})();</script>
