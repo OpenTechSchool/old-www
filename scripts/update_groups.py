@@ -14,7 +14,7 @@ except ImportError:
 
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('email')
-parser.add_argument('--filename', default="groups.md")
+parser.add_argument('--filename', default="_includes/groups_list.md")
 parser.add_argument('--domain', default="opentechschool.org")
 parser.add_argument('--password')
 
@@ -22,18 +22,11 @@ args = parser.parse_args()
 
 BASE_LINK = "https://groups.google.com/a/%s/forum/?fromgroups#!forum/" % args.domain
 
-HEADER = """---
-layout: main
-title: Mailinglists
----
-
-
-# MailingList
-
+HEADER = """
 """
 
 FORMAT_ENTRY = """
-### [{name}]({link})
+#### [{name}]({link})
 
 {desc}
 """
@@ -83,7 +76,7 @@ def format_list(input_list):
 output = [HEADER]
 for idf, name in (('main','General Mailinglists'), \
             ('coaches', 'Coaches Lists'),('team', "Team Lists")):
-    output.append("""## %s """ % name)
+    output.append("""### %s """ % name)
     output.append(format_list(collection[idf]))
     
 
