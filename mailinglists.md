@@ -12,8 +12,13 @@ Mailing lists is our chosen way to stay on top of the communication in the areas
 
 To find all lists please go to our [Google Groups index page](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forumsearch).
 
-Please note that some groups are not visible to you if you don't have an <span style="color: #085987;">@opentechschool.org</span> account or you can't post to them if you are not a member. To become a member is easy, just come by at one of our team breakfasts or write an email to <span style="color: #085987;">Team Tech</span>.
-  
+{% include groups_list.md %}
+
+
+
+> **Note**: Please note that some groups are not visible to you if you don't have an <span style="color: #085987;">@opentechschool.org</span> account or you can't post to them if you are not a member. To become a member is easy, just come by at one of our team breakfasts or write an email to <span style="color: #085987;">Team Tech</span>.
+
+
 
 ## Changelog
 
