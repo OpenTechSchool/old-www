@@ -7,6 +7,11 @@
 Mails to this address will be send to all people having an ots-account. So please consider sending your mail to a specific team instead to all and use this address only in reasonable manner.
 
 
+#### [Discussions](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/discuss.global)
+
+The mailinglist for all public discussion about general OpenTechSchool topics and related questions.
+
+
 #### [Offers](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/offers)
 
 Internships, projects, and collaboration offers to our learners can be posted to that mailing-list.
