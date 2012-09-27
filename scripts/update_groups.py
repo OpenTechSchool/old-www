@@ -43,6 +43,7 @@ groups = groupClient.RetrieveAllGroups()
 
 collection = {
     "coaches": [],
+    "discuss": [],
     "team": [],
     "main": []
 }
@@ -55,7 +56,13 @@ for group in groups.entry:
         continue
     mail_handle = email.split("@", 1)[0]
     desc = group.description
-    group_cat = mail_handle.split(".", 1)[0]
+    try:
+        group_cat, group_name = mail_handle.split(".", 2)
+        if group_cat == "discuss" and group_name == "global":
+            raise ValueError()
+    except ValueError:
+        group_cat = "main"
+
     try:
         listing = collection[group_cat]
     except KeyError:
@@ -75,10 +82,14 @@ def format_list(input_list):
 
 output = [HEADER]
 for idf, name in (('main','General Mailinglists'), \
+            ('discuss', "Local Initiatives"), \
             ('coaches', 'Coaches Lists'),('team', "Team Lists")):
+    if not collection[idf]:
+        # ignore empty list
+        continue
     output.append("""### %s """ % name)
     output.append(format_list(collection[idf]))
-    
+
 
 formatted = '\n'.join(output)
 with open(args.filename, "w") as writer:

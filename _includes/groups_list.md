@@ -16,6 +16,12 @@ The mailinglist for all public discussion about general OpenTechSchool topics an
 
 Internships, projects, and collaboration offers to our learners can be posted to that mailing-list.
 
+### Local Initiatives 
+
+#### [Stockholm Group](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/discuss.stockholm)
+
+The mailinglist for all public discussion by the Stockholm OpenTechSchool community around events and local organisation.
+
 ### Coaches Lists 
 
 #### [Git Coaches](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/coaches.git)
@@ -67,6 +73,11 @@ A Team to OTS peeps discussing and taking care of external communications and ma
 #### [Team Content](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/team.content)
 
 The content creators of the core team (like blog posts and stuff) discuss this in here
+
+
+#### [Team Newthinking](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/team.newthinking)
+
+This groups discusses and organises the involvement in the "summit of newthinking 2012" in Berlin - See:  http://newthinking.de/summit-of-newthinking/
 
 
 #### [Team Online Courses](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/team.online-courses)
