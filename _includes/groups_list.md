@@ -7,14 +7,24 @@
 Mails to this address will be send to all people having an ots-account. So please consider sending your mail to a specific team instead to all and use this address only in reasonable manner.
 
 
-#### [Discussions](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/discuss.global)
+#### [New Education Network](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/new.edu.network)
 
-The mailinglist for all public discussion about general OpenTechSchool topics and related questions.
+The global network inside- and outside institutional eduction connecting with each other to change education for the better with new concepts.
 
 
 #### [Offers](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/offers)
 
 Internships, projects, and collaboration offers to our learners can be posted to that mailing-list.
+
+
+#### [OpenTechSchool Discussions (Global)](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/discuss.global)
+
+The mailinglist for all public discussion about general OpenTechSchool topics and related questions.
+
+
+#### [Team Sponsors](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/sponsors)
+
+Please post sponsor requests to this mail address.
 
 ### Local Initiatives 
 
@@ -23,6 +33,11 @@ Internships, projects, and collaboration offers to our learners can be posted to
 The mailinglist for all public discussion by the Stockholm OpenTechSchool community around events and local organisation.
 
 ### Coaches Lists 
+
+#### [Arduino Coaches](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/coaches.arduino)
+
+Arduino Coaches meet and discuss here
+
 
 #### [Git Coaches](https://groups.google.com/a/opentechschool.org/forum/?fromgroups#!forum/coaches.git)
 
